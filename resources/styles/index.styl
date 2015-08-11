@@ -1,10 +1,10 @@
 // out: index.css, compress: true
 
 .pad
-  padding 10px
+  padding 10px !important
 
 .pad-margin
-  margin 10px
+  margin 10px !important
 
 .nopad
   padding 0
@@ -23,5 +23,5 @@
   @media (max-width 1000px) and (min-width 750px)
     width 750px
   @media (max-width 750px)
-    @extend .pad
+    @extend .pad-margin
     width auto

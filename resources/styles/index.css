@@ -1,1 +1,1 @@
-.nopad{padding:0;margin:0}.default-font{font-family:Roboto,Helvetica,Arial,sans-serif !important}
+.pad{padding:10px}.pad-margin{margin:10px}.nopad{padding:0;margin:0}.default-font{font-family:Roboto,Helvetica,Arial,sans-serif !important}.inner{display:block;}@media (min-width:1250px){.inner{width:1250px}}@media (max-width:1250px) and (min-width:1000px){.inner{width:1000px}}@media (max-width:1000px) and (min-width:750px){.inner{width:750px}}@media (max-width:750px){.inner{width:100%}}

@@ -1,4 +1,4 @@
-// out: index.css
+// out: index.css, compress: true
 
 pad = @block {
   padding 10px
@@ -12,6 +12,8 @@ $seconday = #911E27
   width 100%
   height 50px
   background-color $primary
+  .inner
+    padding 0
 
 .pad
   {pad}
@@ -21,8 +23,6 @@ $seconday = #911E27
 
 .nopad
   padding 0 !important
-
-.nopad-margin
   margin 0 !important
 
 .default-font

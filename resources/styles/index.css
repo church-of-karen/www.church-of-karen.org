@@ -11,6 +11,8 @@
 }
 .nopad {
   padding: 0 !important;
+}
+.nopad-margin {
   margin: 0 !important;
 }
 .default-font {

@@ -15,12 +15,13 @@
     <script>
     $(function(){
       $('.share').on('click', function(){
-        console.log('yes')
-        kik.send({
-          title : 'Karenism',
-          text  : 'Switch to the holy ways of Karenism today!',
-          pic   : 'http://www.church-of-karen.org/resources/images/karen.jpg'
-        });
+        if (kik.enabled) {
+          kik.send({
+            title : 'Karenism',
+            text  : 'Switch to the holy ways of Karenism today!',
+            pic   : 'http://www.church-of-karen.org/resources/images/karen.jpg'
+          });
+        }
       });
     })
     </script>

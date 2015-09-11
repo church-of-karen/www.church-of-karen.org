@@ -13,14 +13,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.kik.com/kik/2.0.5/kik.js"></script>
     <script>
-    $('.share').on('click', function(){
-      console.log('yes')
-      kik.send({
-        title : 'Karenism',
-        text  : 'Switch to the holy ways of Karenism today!',
-        pic   : 'http://www.church-of-karen.org/resources/images/karen.jpg'
+    $(function(){
+      $('.share').on('click', function(){
+        console.log('yes')
+        kik.send({
+          title : 'Karenism',
+          text  : 'Switch to the holy ways of Karenism today!',
+          pic   : 'http://www.church-of-karen.org/resources/images/karen.jpg'
+        });
       });
-    });
+    })
     </script>
   </head>
   <body class='nopad default-font'>

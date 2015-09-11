@@ -13,12 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.kik.com/kik/2.0.5/kik.js"></script>
     <script>
-    $('#test-widget').on('click', function(){
+    $('.share').on('click', function(){
       kik.send({
         title : 'Karenism',
         text  : 'Switch to the holy ways of Karenism today!',
-        pic   : 'http://www.church-of-karen.org/resources/images/karen.jpg',
-        data  : {'extra':'stuff'}
+        pic   : 'http://www.church-of-karen.org/resources/images/karen.jpg'
       });
     });
     </script>
@@ -33,7 +32,7 @@
 
     <div class='content'>
       <div class='sec inner'>
-        <a href='#' id='test-widget'>Test widget.</a>
+        <a href='#' class='share'>Test widget.</a>
       </div>
     </div>
 
